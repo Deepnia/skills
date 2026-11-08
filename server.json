@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.deepnia/deepnia",
+  "title": "Deepnia",
+  "description": "Create AI images, short videos and voice-overs on Deepnia, with the price shown first.",
+  "version": "1.0.0",
+  "websiteUrl": "https://deepnia.com/en/connectors/chatgpt-claude",
+  "repository": { "url": "https://github.com/Deepnia/skills", "source": "github" },
+  "icons": [{ "src": "https://cdn.deepnia.com/emails/offre-850-v2/logo.png", "mimeType": "image/png", "sizes": ["1024x1024"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://deepnia.com/mcp" }]
+}
